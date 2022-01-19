@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import './styles/index.css'
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
@@ -62,7 +62,6 @@ function Index() {
 
             <form onSubmit={handleSubmit}>
                 <Box
-                    component="form"
                     sx={{
                         '& .MuiTextField-root': { m: 1, width: '25ch' },
                     }}

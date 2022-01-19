@@ -51,7 +51,7 @@ export default function TableData(props) {
                 </TableHead>
                 <TableBody>
                     {props.list.map((row) => (
-                        <StyledTableRow key={row.Name}>
+                        <StyledTableRow key={row.id}>
                             <StyledTableCell align="left">{row.id}</StyledTableCell>
                             <StyledTableCell align="left">{row.Sirname}</StyledTableCell>
                             <StyledTableCell align="left">{row.Name}</StyledTableCell>
